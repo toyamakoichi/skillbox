@@ -1,0 +1,43 @@
+.feedback {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+
+    .feedback__title{
+        font-size: 52px;
+        margin-bottom: 50px;
+    }
+
+    .students__videos {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        .students__videos__item {
+            img {
+                width: 270px;
+                height: 426px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+
+            p {
+                position: absolute;
+                margin-left: 16px;
+                background-color: white;
+                margin-top: -55px;
+                padding: 10px 12px;
+                border-radius: 100px;
+
+
+            }
+            img:hover {
+                transform: scale(1.04);
+                transition: 0.2s ease-out;
+            }
+        }
+
+     
+
+    }
+}

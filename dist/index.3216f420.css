@@ -1,0 +1,38 @@
+.feedback {
+  width: 1170px;
+  margin: 0 auto 120px;
+}
+
+.feedback .feedback__title {
+  margin-bottom: 50px;
+  font-size: 52px;
+}
+
+.feedback .students__videos {
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+}
+
+.feedback .students__videos .students__videos__item img {
+  width: 270px;
+  height: 426px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.feedback .students__videos .students__videos__item p {
+  background-color: #fff;
+  border-radius: 100px;
+  margin-top: -55px;
+  margin-left: 16px;
+  padding: 10px 12px;
+  position: absolute;
+}
+
+.feedback .students__videos .students__videos__item img:hover {
+  transition: all .2s ease-out;
+  transform: scale(1.04);
+}
+
+/*# sourceMappingURL=index.3216f420.css.map */

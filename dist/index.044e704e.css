@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Graphik, sans-serif;
+}
+
+.dot {
+  height: 48px;
+  width: 48px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.arrow-b {
+  border: 2px solid #000;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  display: inline-block;
+}
+
+.arrow-w {
+  border: 2px solid #fff;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  display: inline-block;
+}
+
+.down {
+  margin-bottom: 2px;
+  margin-left: 10px;
+  transform: rotate(45deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.variants__variant {
+  width: 125px;
+  margin: 25px auto;
+  display: flex;
+}
+
+.variants__variant .dot {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.variants__variant p {
+  padding-top: 2px;
+}
+
+use:nth-child(2) {
+  transform: translate(20px);
+}
+
+use:nth-child(3) {
+  transform: translate(40px);
+}
+
+use:nth-child(4) {
+  transform: translate(60px);
+}
+
+use:nth-child(5) {
+  transform: translate(80px);
+}
+
+.rating {
+  height: 20px;
+  width: 100px;
+  margin-top: 12px;
+  display: block;
+}
+
+.dot:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.dot:hover i {
+  border-color: #fff;
+}
+
+/*# sourceMappingURL=index.044e704e.css.map */

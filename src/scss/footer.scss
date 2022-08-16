@@ -1,0 +1,366 @@
+.footer {
+    width: 100%;
+    background-color: #242424;
+    padding-top: 124px;
+
+    .subscribe {
+        width: 1170px;
+        height: 364px;
+        margin: 0 auto;
+
+        margin-bottom: 52px;
+        background-color: white;
+        border-radius: 20px;
+
+        .subscribe__content {
+            display: flex;
+
+            .subscribe__content__left {
+                width: 430px;
+                height: 236px;
+                padding-top: 64px;
+                padding-left: 54px;
+                padding-bottom: 64px;
+                margin-right: 142px;
+
+                .subscribe__content__left__title {
+                    font-size: 37px;
+                    line-height: 44px;
+                    margin-bottom: 20px;
+                }
+
+                .subscribe__content__left__text {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+
+            .subscribe__content__right {
+                width: 490px;
+                height: 216px;
+                display: flex;
+                padding-top: 84px;
+                padding-right: 54px;
+                padding-bottom: 64px;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+              
+
+                .name__input {
+                    border-radius: 10px;
+                    width: 490px;
+                    height: 56px;
+                    padding-left: 18px;
+                    font-size: 16px;
+                    outline: none;
+                    border: 1px solid white;
+                }
+
+                .phone__input {
+                    border-radius: 10px;
+                    width: 212px;
+                    height: 56px;
+                    padding-left: 18px;
+                    font-size: 16px;
+                    outline: none;
+                    border: 1px solid white;
+                }
+
+                .email__input {
+                    border-radius: 10px;
+                    width: 212px;
+                    height: 56px;
+                    padding-left: 18px;
+                    font-size: 16px;
+                    outline: none;
+                    border: 1px solid white;
+                }
+                .name__input:hover {
+                    border: 1px solid #a6a4a0;
+                    transition: 0.2s ease-out;
+                }
+                .phone__input:hover {
+                    border: 1px solid #a6a4a0;
+                    transition: 0.2s ease-out;
+                }
+                .email__input:hover {
+                    border: 1px solid #a6a4a0;
+                    transition: 0.2s ease-out;
+                }
+                .name__input::placeholder {
+                    color: black;
+                }
+
+
+
+                .phone__input::placeholder {
+                    color: black;
+                }
+
+                .email__input::placeholder {
+                    color: black;
+                }
+
+                .form__text {
+                    width: 227px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    margin-top: 16px;
+
+                    a {
+                        color: inherit;
+                    }
+                }
+
+                .form__button {
+                    width: 219px;
+                    height: 56px;
+                    margin-top: 16px;
+                    font-size: 18px;
+                    border: none;
+                    font-weight: 600;
+                    border-radius: 12px;
+                    color: white;
+                    background-color: #3d3bff;
+                    cursor: pointer;
+                }
+
+                .form__button:hover {
+                    background-color: black;
+                    transition: 0.15s ease-out;
+                }
+            }
+        }
+    }
+
+    .container {
+        width: 1170px;
+        height: 609px;
+        margin: 0 auto;
+
+        .footer__nav {
+            padding: 40px 0px;
+            display: grid;
+            grid-gap: 56px 30px;
+            grid-template-rows: 1fr;
+            grid-column-gap: 30px;
+            grid-template-columns: 1fr repeat(3, 170px);
+
+            .footer__nav__first {
+                b {
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    width: 370px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid white;
+                    list-style: none;
+                    outline: none;
+                }
+
+                .footer__nav__first__list {
+                    width: 370px;
+                    padding-top: 24px;
+                    display: grid;
+                    grid-column-gap: 30px;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 8px 30px;
+                    list-style: none;
+
+                    .footer__nav__first__list__item {
+                        color: white;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .footer__nav__links {
+                b {
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    width: 170px;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid white;
+                    list-style: none;
+                    outline: none;
+                }
+
+                .footer__nav__links__list {
+                    list-style: none;
+                    padding-top: 24px;
+
+                    .footer__nav__links__list__item {
+                        color: white;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+
+        .footer__info {
+            padding: 40px 0;
+            display: grid;
+            grid-gap: 12px 44px;
+            grid-template-rows: auto 1fr;
+            grid-column-gap: 30px;
+            grid-template-columns: 1fr 370px 170px;
+            border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+            .footer__info__phones {
+                display: grid;
+                grid-gap: 30px;
+                grid-template-columns: 170px 1fr;
+                width: 400px;
+                justify-self: flex-start;
+                grid-row: 1/-1;
+                grid-column: 1/2;
+                list-style: none;
+
+                .footer__info__phones__item {
+                    a {
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: white;
+                        line-height: 20px;
+                        display: block;
+                        font-weight: 500;
+                    }
+
+                    span {
+                        display: block;
+                        margin-top: 12px;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: white;
+                    }
+                }
+
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                grid-row: 1/2;
+                grid-column: 2/3;
+                color: white;
+            }
+
+            a {
+                font-size: 14px;
+                line-height: 20px;
+                grid-row: 2/3;
+                grid-column: 2/3;
+                color: white;
+                text-decoration: none;
+            }
+
+            .footer__info__icons {
+                list-style: none;
+                display: flex;
+                justify-content: flex-end;
+                flex-wrap: wrap;
+                grid-row: 1/-1;
+                grid-column: 3/-1;
+
+                .footer__info__icons__item{
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        margin: 0 8px 16px;
+                    }
+                }
+            }
+        }
+
+        .footer__underline {
+            display: grid;
+            padding: 40px 0;
+            grid-gap: 24px 28px;
+            grid-template-rows: auto 1fr;
+            grid-template-columns: 1fr 570px;
+
+            .footer__underline__docs {
+                font-size: 12px;
+                line-height: 16px;
+                width: 570px;
+                grid-row: 1/2;
+                grid-column: 1/2;
+                list-style: none;
+                display: flex;
+
+                .footer__underline__docs-item {
+                    margin-right: 16px;
+                    margin-bottom: 8px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: white;
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                }
+            }
+
+            .footer__underline__rewards {
+                display: grid;
+                grid-gap: 64px;
+                grid-row: 2/-1;
+                grid-column: 2/-1;
+                grid-template-columns: auto 1fr;
+                list-style: none;
+
+                .footer__underline__rewards-item {
+                    display: grid;
+                    grid-gap: 16px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    grid-template-columns: min-content 1fr;
+                    align-items: center;
+                    color: rgba(255, 255, 255, .65);
+                }
+
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 16px;
+                grid-row: 1/2;
+                grid-column: 2/-1;
+
+                color: rgba(255, 255, 255, .65);
+
+                a {
+                    color: inherit;
+                }
+            }
+
+            span {
+                align-self: flex-end;
+                font-size: 12px;
+                line-height: 16px;
+
+                color: rgba(255, 255, 255, .65);
+            }
+        }
+
+    }
+
+}

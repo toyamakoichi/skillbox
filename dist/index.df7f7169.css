@@ -1,0 +1,35 @@
+.cooperation {
+  width: 1170px;
+  margin: 0 auto 130px;
+}
+
+.cooperation .cooperation__title {
+  width: 850px;
+  margin-bottom: 20px;
+  font-size: 52px;
+  line-height: 54px;
+}
+
+.cooperation .cooperation__text {
+  width: 640px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.cooperation .cooperation__companies {
+  grid-row-gap: 48px;
+  grid-gap: 32px 30px;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding-top: 20px;
+  list-style: none;
+  display: grid;
+}
+
+.cooperation .cooperation__companies img {
+  width: 270px;
+  height: 72px;
+}
+
+/*# sourceMappingURL=index.df7f7169.css.map */

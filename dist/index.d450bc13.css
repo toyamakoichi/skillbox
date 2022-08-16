@@ -1,0 +1,61 @@
+.events {
+  width: 1170px;
+  height: 637px;
+  margin: 0 auto 120px;
+}
+
+.events .events__title {
+  width: 840px;
+  margin-bottom: 40px;
+  font-size: 52px;
+  line-height: 54px;
+}
+
+.events .events__event__content {
+  height: 492px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  display: flex;
+}
+
+.events .events__event__content .events__event__content__left p {
+  padding-top: 40px;
+  padding-left: 70px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.events .events__event__content .events__event__content__left h3 {
+  width: 552px;
+  height: 188px;
+  margin-right: 0;
+  padding-top: 40px;
+  padding-left: 70px;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.events .events__event__content .events__event__content__left button {
+  height: 56px;
+  width: 295px;
+  border-radius: 12px;
+  margin-top: 40px;
+  margin-left: 70px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.events .events__event__content .events__event__content__left button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: #000;
+  transition: all .15s ease-out;
+}
+
+.events .events__image {
+  width: 458px;
+  height: 412px;
+}
+
+/*# sourceMappingURL=index.d450bc13.css.map */
