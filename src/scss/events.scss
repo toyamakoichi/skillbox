@@ -3,7 +3,7 @@
     height: 637px;
 
     margin: 0 auto;
-
+    
     margin-bottom: 120px;
 
     .events__title{
@@ -70,4 +70,8 @@
     }
 
 
+}
+.events:hover {
+    transform: scale(1.001);
+    
 }
