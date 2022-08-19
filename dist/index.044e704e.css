@@ -4,6 +4,24 @@
   font-family: Graphik, sans-serif;
 }
 
+.menu-toogle {
+  display: none;
+}
+
+.menu-toogle img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .menu-toogle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
 .dot {
   height: 48px;
   width: 48px;

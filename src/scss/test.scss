@@ -5,13 +5,41 @@
     border-radius: 30px;
     background-color: #ffe7e7;
 
+    @media (max-width:1200px) {
+        width: 928px;
+        overflow: hidden;
+    }
+
+    @media (max-width:950px) {
+
+        width: 696px;
+        height: 566px;
+
+    }
+
     .test__content {
         padding: 20px 40px 86px 80px;
         display: flex;
 
+        @media (max-width:1200px) {
+            padding: 60px;
+
+        }
+
+        @media (max-width:950px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          
+        }
+
         .test__content__left {
             margin-right: 62px;
-
+            @media (max-width:950px) {
+                margin: 0;
+               
+            }
             h3 {
                 display: flex;
                 justify-content: flex-end;
@@ -22,6 +50,18 @@
                 text-align: left;
                 width: 520px;
                 margin-bottom: 80px;
+
+                @media (max-width:950px) {
+                    width: 422px;
+                    height: 132px;
+                    
+                    font-size: 32px;
+                    line-height: 44px;
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                    align-items: flex-start;
+                }
             }
 
             .test__content__button {
@@ -31,6 +71,12 @@
                 border-radius: 12px;
                 font-size: 18px;
                 background-color: transparent;
+                @media (max-width:950px) {
+                    margin: 0 auto;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                }
             }
 
             .test__content__button:hover {
@@ -44,11 +90,25 @@
         img {
             width: 468px;
             height: 364px;
+
+            @media (max-width:950px) {
+                width: 266px;
+                height: 238px;
+                order: -1;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
         }
     }
 
 }
-.test:hover {
-    transform: scale(1.001);
-    
+
+.test__content:hover {
+    transform: scale(1.01);
+    transition: 0.3s ease-out;
+
+    @media (max-width:950px) {
+        transform: scale(1);
+    }
 }

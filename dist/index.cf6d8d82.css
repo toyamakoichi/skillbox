@@ -3,6 +3,18 @@
   margin: 0 auto 120px;
 }
 
+@media (max-width: 1200px) {
+  .students__reviews {
+    width: 928px;
+  }
+}
+
+@media (max-width: 950px) {
+  .students__reviews {
+    width: 696px;
+  }
+}
+
 .students__reviews .student__reviews__title {
   width: 796px;
   margin-bottom: 40px;
@@ -10,9 +22,33 @@
   line-height: 54px;
 }
 
+@media (max-width: 1200px) {
+  .students__reviews .student__reviews__title {
+    width: 608px;
+    height: 108px;
+  }
+}
+
+@media (max-width: 950px) {
+  .students__reviews .student__reviews__title {
+    width: 459px;
+    height: 88px;
+    font-size: 42px;
+    line-height: 44px;
+  }
+}
+
 .students__reviews .student__review {
+  background-color: #f7f7f5;
   border-radius: 20px;
   padding: 32px;
+}
+
+@media (max-width: 950px) {
+  .students__reviews .student__review {
+    width: 516px;
+    height: 448px;
+  }
 }
 
 .students__reviews .student__review .student__review__header {
@@ -70,6 +106,17 @@
   line-height: 24px;
 }
 
+@media (max-width: 950px) {
+  .students__reviews .student__review .student__review__text {
+    width: 452px;
+    height: 176px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
 .students__reviews .student__review .student__review__button {
   width: 150px;
   height: 40px;
@@ -80,6 +127,12 @@
   margin-left: 54px;
   font-size: 14px;
   display: flex;
+}
+
+@media (max-width: 950px) {
+  .students__reviews .student__review .student__review__button {
+    margin-left: 0;
+  }
 }
 
 .students__reviews .student__review .student__review__button img {

@@ -4,6 +4,23 @@
     font-family: Graphik, sans-serif;
 }
 
+.menu-toogle {
+    display: none;
+
+    img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    @media (max-width:1200px) {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+
+    }
+}
+
 .dot {
     height: 48px;
     width: 48px;
@@ -104,19 +121,3 @@ use {
         border-color: white;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

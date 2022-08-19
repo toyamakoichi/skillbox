@@ -2,25 +2,50 @@
     width: 1170px;
     margin: 0 auto;
     margin-bottom: 120px;
-
+    @media (max-width:1200px) {
+        width: 928px;
+     }
+     @media (max-width:950px) {
+                   
+       width: 696px;
+       
+    }
     .feedback__title{
         font-size: 52px;
         margin-bottom: 50px;
+        @media (max-width:950px) {
+                   
+            width: 696px;
+            height: 44px;
+            font-size: 42px;
+         }
     }
 
     .students__videos {
         display: flex;
         justify-content: space-between;
         list-style: none;
-
+        @media (max-width:950px) {
+            justify-content: space-around;
+            
+          }
         .students__videos__item {
             img {
                 width: 270px;
                 height: 426px;
                 border-radius: 20px;
                 cursor: pointer;
+                @media (max-width:1200px) {
+                    width: 218px;
+                    height: 344px;
+                 }
+                 @media (max-width:950px) {
+                   width: 278px;
+                   height: 438px;
+                   
+                 }
             }
-
+         
             p {
                 position: absolute;
                 margin-left: 16px;
@@ -36,7 +61,18 @@
                 transition: 0.2s ease-out;
             }
         }
-
+        .students__videos__item:nth-child(3)
+        {
+            @media (max-width:950px) {
+                display: none;
+              }
+        }
+        .students__videos__item:nth-child(4)
+        {
+            @media (max-width:950px) {
+                display: none;
+              }
+        }
      
 
     }
