@@ -10,13 +10,17 @@
        width: 696px;
        
     }
+    @media (max-width:782px) {
+        width: 95%;
+        overflow: hidden;
+       }
     .feedback__title{
         font-size: 52px;
         margin-bottom: 50px;
         @media (max-width:950px) {
                    
-            width: 696px;
-            height: 44px;
+            width: 100%;
+            height: inherit;
             font-size: 42px;
          }
     }
@@ -60,6 +64,12 @@
                 transform: scale(1.04);
                 transition: 0.2s ease-out;
             }
+        }
+        .students__videos__item:nth-child(2)
+        {
+            @media (max-width:600px) {
+                display: none;
+              }
         }
         .students__videos__item:nth-child(3)
         {

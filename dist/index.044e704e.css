@@ -77,6 +77,12 @@
   padding-top: 2px;
 }
 
+@media (max-width: 782px) {
+  .variants__variant {
+    order: 1;
+  }
+}
+
 use:nth-child(2) {
   transform: translate(20px);
 }

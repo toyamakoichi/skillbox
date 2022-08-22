@@ -15,6 +15,13 @@
   }
 }
 
+@media (max-width: 782px) {
+  .feedback {
+    width: 95%;
+    overflow: hidden;
+  }
+}
+
 .feedback .feedback__title {
   margin-bottom: 50px;
   font-size: 52px;
@@ -22,8 +29,8 @@
 
 @media (max-width: 950px) {
   .feedback .feedback__title {
-    width: 696px;
-    height: 44px;
+    width: 100%;
+    height: inherit;
     font-size: 42px;
   }
 }
@@ -73,6 +80,12 @@
 .feedback .students__videos .students__videos__item img:hover {
   transition: all .2s ease-out;
   transform: scale(1.04);
+}
+
+@media (max-width: 600px) {
+  .feedback .students__videos .students__videos__item:nth-child(2) {
+    display: none;
+  }
 }
 
 @media (max-width: 950px) {

@@ -2,43 +2,70 @@
     width: 1170px;
     margin: 0 auto;
     margin-bottom: 120px;
+
     @media (max-width:1200px) {
         width: 928px;
     }
+
     @media (max-width:950px) {
-                   
+
         width: 696px;
-      }
+    }
+    @media (max-width:782px) {
+        width: 95%;
+
+        margin-bottom: 60px;
+    }
     .changes__title {
         width: 100%;
         font-size: 52px;
         margin-bottom: 40px;
+
         @media (max-width:1200px) {
             width: 532px;
             height: 108px;
         }
+
         @media (max-width:950px) {
-                   
+
             width: 532px;
             height: 88px;
             font-size: 42px;
-          }
+        }
+
+        @media (max-width:782px) {
+
+            width: 100%;
+            height: inherit;
+            font-size: 27px;
+            margin-bottom: 32px;
+        }
     }
 
     .changes__video {
-       cursor: pointer;
+        cursor: pointer;
         border-radius: 20px;
         margin-bottom: 50px;
+
         @media (max-width:1200px) {
             width: 928px;
             height: 255px;
         }
+
         @media (max-width:950px) {
-                   
+
             width: 696px;
             height: 196px;
-          }
+        }
+
+        @media (max-width:782px) {
+
+            width: 100%;
+            margin-bottom: 32px;
+        }
     }
+
+    
 
     .changes__features-list {
         list-style: none;
@@ -46,27 +73,47 @@
         grid-column-gap: 100px;
         grid-gap: 50px 74px;
         grid-template-columns: 1fr 1fr;
+        @media (max-width:782px) {
 
+            display: flex;
+            flex-direction: column;
+            grid-gap: 24px;
+        }
         .changes__features-list__item {
             display: grid;
             grid-gap: 24px;
             grid-template-columns: 32px 1fr;
+            @media (max-width:782px) {
 
+                grid-gap: 16px;
+                
+            }
             img {
                 width: 32px;
                 height: 32px;
                 padding-top: 5px;
+                @media (max-width:782px) {
+
+                    width: 28px;
+                    height: 28px;
+                }
             }
 
             span {
 
                 font-size: 22px;
                 line-height: 32px;
+
                 @media (max-width:950px) {
-                   
+
                     font-size: 18px;
                     line-height: 26px;
-                  }
+                }
+                @media (max-width:782px) {
+
+                   font-size: 16px;
+                   line-height: 24px;
+                }
             }
         }
     }

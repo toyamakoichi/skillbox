@@ -23,6 +23,12 @@
   }
 }
 
+@media (max-width: 782px) {
+  .header__background .header__content {
+    width: 95%;
+  }
+}
+
 .header__background .header__content .header__logo {
   width: 108px;
   height: 96px;
