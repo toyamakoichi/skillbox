@@ -65,8 +65,8 @@
 
 .header__background .header__content .header__button button:hover {
   color: #fff;
-  background: #3d3bff;
-  border-color: #3d3bff;
+  background: green;
+  border-color: green;
   transition: all .15s ease-out;
 }
 

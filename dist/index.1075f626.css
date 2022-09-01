@@ -7,7 +7,7 @@
 .footer .subscribe {
   width: 1170px;
   height: 364px;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 20px;
   margin: 0 auto 52px;
 }
@@ -79,6 +79,7 @@
 }
 
 .footer .subscribe .subscribe__content .subscribe__content__left .subscribe__content__left__title {
+  color: #fff;
   margin-bottom: 20px;
   font-size: 37px;
   line-height: 44px;
@@ -99,6 +100,7 @@
 }
 
 .footer .subscribe .subscribe__content .subscribe__content__left .subscribe__content__left__text {
+  color: #fff;
   font-size: 16px;
   line-height: 24px;
 }
@@ -237,6 +239,7 @@
 
 .footer .subscribe .subscribe__content .subscribe__content__right .form__text {
   width: 227px;
+  color: #fff;
   margin-top: 16px;
   font-size: 12px;
   line-height: 16px;
@@ -251,7 +254,7 @@
   height: 56px;
   color: #fff;
   cursor: pointer;
-  background-color: #3d3bff;
+  background-color: green;
   border: none;
   border-radius: 12px;
   margin-top: 16px;

@@ -9,7 +9,7 @@
         margin: 0 auto;
 
         margin-bottom: 52px;
-        background-color: white;
+        background-color: rgb(0, 0, 0);
         border-radius: 20px;
 
         @media (max-width:1200px) {
@@ -69,7 +69,7 @@
                     font-size: 37px;
                     line-height: 44px;
                     margin-bottom: 20px;
-
+                    color:white;
                     @media (max-width:1200px) {
                         font-size: 32px;
 
@@ -86,7 +86,7 @@
                 .subscribe__content__left__text {
                     font-size: 16px;
                     line-height: 24px;
-
+                    color: white;
                     @media (max-width:1200px) {
                         width: 321px;
                     }
@@ -227,7 +227,7 @@
                     font-size: 12px;
                     line-height: 16px;
                     margin-top: 16px;
-
+                    color:white;
                     a {
                         color: inherit;
                     }
@@ -243,7 +243,7 @@
                     font-weight: 600;
                     border-radius: 12px;
                     color: white;
-                    background-color: #3d3bff;
+                    background-color: green;
                     cursor: pointer;
                     @media (max-width:782px) {
                         width: 100%;
